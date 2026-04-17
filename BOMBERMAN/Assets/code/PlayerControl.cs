@@ -8,26 +8,34 @@ public class PlayerControl : MonoBehaviour
     public Transform bombStart;
     public GameObject Bomb;
 
+    bool pause = false, fired = false;
+    public bool bombAmount = false;
     float speed = 5;
     float VerticalValue = 0, HorizontalValue = 0, DeployBomb = 0;
     Vector3 movement;
 
-    // Start is called before the first frame update
     void Start()
     {
         PlayerTransform = GetComponent<Transform>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         VerticalValue = Input.GetAxis("Vertical");
         HorizontalValue = Input.GetAxis("Horizontal");
         DeployBomb = Input.GetAxis("Jump");
+
+
          // TO-DO no spam bombas y dessactivar colison bombas
-        if(DeployBomb != 0){
+        if(DeployBomb != 0 && fired == false){
             GameObject spawnBomb = Instantiate(Bomb, bombStart.position, PlayerTransform.rotation);
+            fired = true;
         }
+
+        if(DeployBomb == 0 && !bombAmount) { 
+            fired = false;
+        }
+        
 
         movement = (PlayerTransform.forward * VerticalValue) + (PlayerTransform.right * HorizontalValue);
         movement = movement.normalized;
