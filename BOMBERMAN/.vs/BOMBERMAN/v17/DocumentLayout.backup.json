@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\senn\\Documents\\GitHub\\BOMBERMAN\\BOMBERMAN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CA9F468-080D-0630-C81D-4862CBB62507}|Assembly-CSharp.csproj|c:\\users\\senn\\documents\\github\\bomberman\\bomberman\\assets\\code\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0CA9F468-080D-0630-C81D-4862CBB62507}|Assembly-CSharp.csproj|c:\\users\\senn\\documents\\github\\bomberman\\bomberman\\assets\\code\\bombscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA9F468-080D-0630-C81D-4862CBB62507}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\bombscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA9F468-080D-0630-C81D-4862CBB62507}|Assembly-CSharp.csproj|C:\\Users\\senn\\Documents\\GitHub\\BOMBERMAN\\BOMBERMAN\\assets\\code\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CA9F468-080D-0630-C81D-4862CBB62507}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CA9F468-080D-0630-C81D-4862CBB62507}|Assembly-CSharp.csproj|c:\\users\\senn\\documents\\github\\bomberman\\bomberman\\assets\\code\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0CA9F468-080D-0630-C81D-4862CBB62507}|Assembly-CSharp.csproj|C:\\Users\\senn\\Documents\\GitHub\\BOMBERMAN\\BOMBERMAN\\assets\\code\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CA9F468-080D-0630-C81D-4862CBB62507}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,25 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BombScript.cs",
+              "DocumentMoniker": "C:\\Users\\senn\\Documents\\GitHub\\BOMBERMAN\\BOMBERMAN\\Assets\\code\\BombScript.cs",
+              "RelativeDocumentMoniker": "Assets\\code\\BombScript.cs",
+              "ToolTip": "C:\\Users\\senn\\Documents\\GitHub\\BOMBERMAN\\BOMBERMAN\\Assets\\code\\BombScript.cs",
+              "RelativeToolTip": "Assets\\code\\BombScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T15:25:29.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PlayerControl.cs",
               "DocumentMoniker": "C:\\Users\\senn\\Documents\\GitHub\\BOMBERMAN\\BOMBERMAN\\Assets\\code\\PlayerControl.cs",
               "RelativeDocumentMoniker": "Assets\\code\\PlayerControl.cs",
               "ToolTip": "C:\\Users\\senn\\Documents\\GitHub\\BOMBERMAN\\BOMBERMAN\\Assets\\code\\PlayerControl.cs",
               "RelativeToolTip": "Assets\\code\\PlayerControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T15:17:06.986Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\senn\\Documents\\GitHub\\BOMBERMAN\\BOMBERMAN\\Assets\\code\\Menu.cs",
               "RelativeDocumentMoniker": "Assets\\code\\Menu.cs",
               "ToolTip": "C:\\Users\\senn\\Documents\\GitHub\\BOMBERMAN\\BOMBERMAN\\Assets\\code\\Menu.cs",
               "RelativeToolTip": "Assets\\code\\Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T15:16:05.594Z",
               "EditorCaption": ""
